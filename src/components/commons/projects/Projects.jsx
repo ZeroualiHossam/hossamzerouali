@@ -1,27 +1,23 @@
 import React from 'react';
-import './Projects.css';
 import culturappImage from '../../../assets/culturapp_mock.png';
-import kbinImage from '../../../assets/kbin_mock.png';
 import f1Image from '../../../assets/f1_mock.png';
-import keyboardImage from '../../../assets/teclado_mock.png';
+import kbinImage from '../../../assets/kbin_mock.png';
 import portfolioImage from '../../../assets/portfolio_mock.png';
+import keyboardImage from '../../../assets/teclado_mock.png';
+import './Projects.css';
 
 const Projects = () => {
         
         const handleViewProjectClickCulturApp = () => {
-            window.location.href = 'https://github.com/HossamZerouali/culturapp';
+            window.location.href = 'https://github.com/ZeroualiHossam/culturapp';
         };
     
         const handleDownloadProjectClickCulturApp = () => {
-            window.location.href = 'https://github.com/HossamZerouali/culturapp/releases/tag/culturapp';
+            window.location.href = 'https://github.com/ZeroualiHossam/culturapp/releases/tag/CulturApp';
         };
         
         const handleViewProjectClickKbinSocial = () => {
-            window.location.href = 'https://github.com/HossamZerouali/kbinproject';
-        };
-
-        const handleVisitClonClick = () => {
-            window.location.href = 'https://asw-projecte-kbin-social-alphatretze.onrender.com/';
+            window.location.href = 'https://github.com/ZeroualiHossam/kbin';
         };
     
         const handleVisitRedesignClick = () => {
@@ -29,19 +25,19 @@ const Projects = () => {
         };
 
         const handleViewProjectClickF1Web = () => {
-            window.location.href = 'https://github.com/HossamZerouali/f1-website-angular';
+            window.location.href = 'https://github.com/ZeroualiHossam/f1-website-angular';
         };
 
         const handleViewProjectClickKeyboard = () => {
-            window.location.href = 'https://github.com/HossamZerouali/f1-website-angular';
+            window.location.href = 'https://github.com/ZeroualiHossam/keyboard-optimization';
         };
 
         const handleDownloadProjectClickKeyboard = () => {
-            window.location.href = 'https://github.com/HossamZerouali/keyboard-optimization/releases';
+            window.location.href = 'https://github.com/ZeroualiHossam/keyboard-optimization/releases/tag/keyboard';
         };
 
         const handleViewProjectClickPortfolio = () => {
-            window.location.href = 'https://github.com/HossamZerouali/hossamzerouali';
+            window.location.href = 'https://github.com/ZeroualiHossam/hossamzerouali';
         };
 
     return (
@@ -88,7 +84,6 @@ const Projects = () => {
                         </div>
                         <div className='project-links'>
                             <button className='project-button' onClick={handleViewProjectClickKbinSocial}>View Project</button>
-                            <button className='download-button' onClick={handleVisitClonClick}>Visit Clon</button>
                             <button className='download-button' onClick={handleVisitRedesignClick}>Visit Redesign</button>
                         </div>
                     </div>

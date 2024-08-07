@@ -1,6 +1,6 @@
 import React from 'react';
-import './title-buttons.css';
 import ReactGA from 'react-ga';
+import './title-buttons.css';
 
 const TitleButtons = () => {
     const handleDownloadCVClick = () => {
@@ -27,7 +27,7 @@ const TitleButtons = () => {
             action: 'navigate',
             label: 'GitHub Profile'
         });
-        window.location.href = 'https://github.com/HossamZerouali';
+        window.location.href = 'https://github.com/ZeroualiHossam';
     };
 
     const scrollToSection = (id) => {
