@@ -1,0 +1,8 @@
+.container-home {
+    text-align: center;
+    background-color: #f0f0f0;
+    background-image: url('../../assets/background-top.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

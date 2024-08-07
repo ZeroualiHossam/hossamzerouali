@@ -1,0 +1,600 @@
+.projects-container{
+    background-color: rgb(248, 248, 248);
+    padding-bottom: 100px;
+}
+
+.title-projects{
+    font-family: 'Teko', sans-serif;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #333;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.line{
+    width: 80px;
+    height: 3px;
+    background-color:  rgb(111, 184, 159);
+    margin-top: -50px;
+    margin-bottom: 10px;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.project-image {
+    width: 725px;
+    height: auto;
+    margin-right: 80px;
+}
+
+.project div {
+    flex: 1;
+}
+
+.project-dev{
+    display: flex;
+    align-items: center;
+    margin-top: -15px;
+}
+
+.devwith{
+    font-size:18px;
+    margin-right: 8px;
+    font-weight: 600;
+}
+
+.img-dev{
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+}
+
+.download-button {
+    background-color: white;
+    color: #333;
+    padding: 14px 25px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: 2px solid rgb(111, 184, 159);
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 15px;
+}
+
+.download-button:hover {
+    border: 2px solid rgb(28, 59, 48);
+}
+
+.project-button:hover {
+    background-color: rgb(28, 59, 48);;
+}
+
+.project-button {
+    background-color: rgb(111, 184, 159);
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 18px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 15px;
+}
+
+.project-button:hover {
+    background-color: rgb(28, 59, 48);;
+}
+
+.project p {
+    text-justify: justify;
+}
+
+.coming {
+    display: flex;
+    align-items: center;
+}
+
+.coming h1, .coming h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.coming h1 {
+    margin-right: 10px;
+}
+
+.coming h2 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: red;
+}
+
+.res{
+    color: #333;
+}
+
+
+@media screen and (max-width: 1750px) {
+    .project {
+        margin-left: 175px;
+        margin-right: 175px;
+    }
+    
+}
+
+@media screen and (max-width: 1700px) {
+    .project {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    
+}
+
+@media screen and (max-width: 1600px) {
+    .project {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    .project-image {
+        width: 700px;
+        height: auto;
+        margin-right: 60px;
+    }
+    
+}
+
+@media screen and (max-width: 1550px) {
+    .project {
+        margin-left: 125px;
+        margin-right: 125px;
+    }
+    
+}
+
+@media screen and (max-width: 1500px) {
+    .project {
+        margin-left: 125px;
+        margin-right: 125px;
+    }
+
+    .project-image {
+        width: 650px;
+        height: auto;
+        margin-right: 50px;
+    }
+    
+}
+
+@media screen and (max-width: 1450px) {
+    .project {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .project-image {
+        width: 650px;
+        height: auto;
+        margin-right: 50px;
+    }
+
+    .content-project h1{
+        font-size: 24px;
+    }
+    
+}
+
+@media screen and (max-width: 1400px) {
+    .download-button {
+        padding: 12px 22px;
+        font-size: 14px;
+        margin-right: 10px;
+    }
+    .project-button {
+        padding: 13px 22px;
+        border-radius: 18px;
+        font-size: 14px;
+        margin-right: 10px;
+    }
+    
+}
+
+
+@media screen and (max-width: 1350px) {
+
+    .project-image {
+        margin-right: 35px;
+    }
+
+    .content-project p{
+        font-size: 16px;
+    }
+    
+    .project-image {
+        width: 550px;
+        height: auto;
+        margin-right: 30px;
+    }
+
+    .project {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+
+    .project-image {
+        margin-right: 35px;
+    }
+
+    .content-project p{
+        font-size: 14px;
+    }
+
+    .download-button {
+        padding: 10px 18px;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+    .project-button {
+        padding: 11px 18px;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
+    .coming h1 {
+        margin-right: 7px;
+    }
+
+    .devwith{
+        font-size:14px;
+        margin-right: 8px;
+        font-weight: 700;
+    }
+    
+    .img-dev{
+        width: 18px;
+        height: 18px;
+        margin-right: 6px;
+    }
+
+    .coming h2 {
+        margin-top: 5px;
+        font-size: 14px;
+    }
+
+    .content-project h1{
+        font-size: 20px;
+    }
+    
+    .project-image {
+        width: 550px;
+        height: auto;
+        margin-right: 30px;
+    }
+
+    .project {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 1052px) {
+
+    .line{
+        width: 80px;
+        height: 3px;
+        background-color:  rgb(111, 184, 159);
+        margin-top: -50px;
+        margin-bottom: 80px;
+    }
+
+    .project {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .project-image {
+        width: 650px;
+        height: auto;
+        margin-right: 0px;
+    }
+
+    .download-button {
+        background-color: white;
+        color: #333;
+        padding: 14px 25px;
+        cursor: pointer;
+        margin-top: 10px;
+        border-radius: 20px;
+        border: 2px solid rgb(111, 184, 159);
+        font-size: 16px;
+        font-weight: 700;
+        margin-right: 15px;
+        position: relative;
+        z-index: 10;
+    }
+    
+    .project-button {
+        background-color: rgb(111, 184, 159);
+        color: white;
+        border: none;
+        padding: 15px 25px;
+        cursor: pointer;
+        margin-top: 10px;
+        border-radius: 18px;
+        font-size: 16px;
+        font-weight: 600;
+        margin-right: 15px;
+        position: relative;
+        z-index: 10;
+    }
+
+    .h{
+        width: 100%;
+        margin-bottom: -100px;
+        margin-top: -50px;
+    }
+
+    .v{
+        margin-top: 50px;
+    }
+
+    .devwith{
+        font-size:18px;
+        margin-right: 8px;
+        font-weight: 600;
+    }
+    
+    .img-dev{
+        width: 25px;
+        height: 25px;
+        margin-right: 8px;
+    }
+
+    .coming h2 {
+        margin-top: 5px;
+        font-size: 18px;
+    }
+
+    .content-project h1{
+        font-size: 24px;
+    }
+
+    .content-project p{
+        font-size: 16px;
+    }
+
+    .download-button:hover {
+        border: 2px solid rgb(28, 59, 48);
+    }
+    
+    .project-button:hover {
+        background-color: rgb(28, 59, 48);;
+    }
+    
+}
+
+@media screen and (max-width: 780px) {
+    .project-image {
+        width: 500px;
+        height: auto;
+        margin-right: 0px;
+    }
+
+    .coming h2 {
+        margin-top: 5px;
+        font-size: 14px;
+    }
+
+    .content-project h1{
+        font-size: 20px;
+    }
+
+    .content-project p{
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .download-button {
+        padding: 12px 22px;
+        font-size: 14px;
+        margin-right: 10px;
+    }
+
+    .project-button {
+        padding: 13px 22px;
+        border-radius: 18px;
+        font-size: 14px;
+        margin-right: 10px;
+    }
+
+    
+    .devwith{
+        font-size:16px;
+        margin-right: 8px;
+        font-weight: 600;
+    }
+    
+    .img-dev{
+        width: 20px;
+        height: 20px;
+        margin-right: 8px;
+    }
+
+    .h{
+        width: 100%;
+        margin-bottom: -50px;
+        margin-top: -50px;
+    }
+
+    .project {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .h{
+        width: 100%;
+        margin-bottom: -50px;
+        margin-top: -25px;
+    }
+
+    .project-image {
+        width: 500px;
+        height: auto;
+        margin-right: -20px;
+        margin-left: -20px;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+
+    .h{
+        width: 100%;
+        margin-bottom: -50px;
+        margin-top: -25px;
+    }
+
+    .project-image {
+        width: 400px;
+        height: auto;
+        margin-right:10px;
+        margin-left:10px;
+    }
+
+    .content-project p{
+        font-size: 12px;
+    }
+
+    .content-project h1{
+        font-size: 16px;
+    }
+
+    .coming h2{
+        margin-top: 3px;
+        font-size: 12px;
+    }
+
+    .download-button {
+        padding: 10px 18px;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
+    .project-button {
+        padding: 11px 18px;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
+    .devwith{
+        font-size:14px;
+        margin-right: 8px;
+        font-weight: 700;
+    }
+    
+    .img-dev{
+        width: 18px;
+        height: 18px;
+        margin-right: 6px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .h{
+        width: 100%;
+        margin-bottom: -50px;
+        margin-top: -25px;
+    }
+
+    .project-image {
+        width: 325px;
+        height: auto;
+        margin-right:10px;
+        margin-left:10px;
+    }
+
+    .content-project p{
+        font-size: 12px;
+    }
+
+    .content-project h1{
+        font-size: 16px;
+    }
+
+    .coming h2{
+        margin-top: 3px;
+        font-size: 12px;
+    }
+
+    .download-button {
+        padding: 8px 14px;
+        font-size: 10px;
+        margin-right: 5px;
+    }
+
+    .project-button {
+        padding: 9px 14px;
+        font-size: 10px;
+        margin-right: 5px;
+    }
+
+    .devwith{
+        font-size:12px;
+        margin-right: 8px;
+        font-weight: 700;
+    }
+    
+    .img-dev{
+        width: 16px;
+        height: 16px;
+        margin-right: 6px;
+    }
+
+    .project {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .project-links{
+        margin-top: -5px;
+    }
+
+    .hh{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+
+
+

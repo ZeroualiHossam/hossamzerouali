@@ -1,0 +1,157 @@
+.header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-size: 200% 200%;
+    animation: gradient 5s ease infinite;
+    height: 65px;
+    color: white;
+    align-items: center;
+    background-color: transparent;
+}
+
+.header--visible {
+    top: 0;
+}
+
+.header--hidden {
+    top: -100px;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(111, 184, 159);
+    font-weight: 700;
+}
+
+.leftside {
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+}
+
+.rightside-container {
+    display: flex;
+    align-items: center;
+    margin-right: 300px;
+}
+
+.option {
+    margin-left: 40px;
+    text-decoration: none;
+    color: rgb(111, 184, 159);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.option:hover {
+    color: black;
+}
+
+.menu-icon img {
+    margin-top: 5px;
+    height: 30px;
+}
+
+.dropdown-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+    background-color: #444;
+}
+
+@media screen and (max-width: 1400px) {
+    .leftside {
+        margin-left: 200px;
+    }
+    .rightside-container {
+        margin-right: 200px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .leftside {
+        margin-left: 100px;
+    }
+    .rightside-container {
+        margin-right: 100px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .option {
+        margin-left: 20px;
+    }
+    .leftside {
+        margin-left: 80px;
+    }
+}
+
+.rightside, .menu-icon {
+    display: none;
+}
+
+@media (min-width: 800px) {
+    .rightside {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+}
+
+@media (max-width: 799px) {
+    .rightside {
+        display: none;
+    }
+
+    .rightside-container {
+        margin-right: 10px;
+    }
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+        margin-right: 80px;
+    }
+
+    .dropdown-menu {
+        display: none;
+        flex-direction: column;
+        background-color: #333;
+        position: absolute;
+        border: 1px solid #444;
+    }
+
+    .dropdown-menu.show {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .leftside {
+        margin-left: 30px;
+    }
+    .menu-icon {
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .leftside {
+        margin-left: 40px;
+    }
+    .menu-icon {
+        margin-right: 30px;
+    }
+}
