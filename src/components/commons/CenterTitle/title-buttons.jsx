@@ -9,7 +9,7 @@ const TitleButtons = () => {
             action: 'download',
             label: 'Download CV'
         });
-        window.location.href = 'https://drive.google.com/uc?export=download&id=1zgh2O8_9ShbDPYhlAZELjZJ5Plv_hX9-';
+        window.location.href = 'https://drive.google.com/uc?export=download&id=1PNgm8ZS6DNh8tV79IIfhfSTg3X8wWW3S';
     };
     
     const handleLinkedInClick = () => {
