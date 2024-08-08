@@ -11,7 +11,7 @@ const Footer = () => {
     };
 
     const handleGithubClick = () => {
-        window.location.href = 'https://github.com/HossamZerouali';
+        window.location.href = 'https://github.com/ZeroualiHossam';
     };
     return (
         <div className="footer-container">
