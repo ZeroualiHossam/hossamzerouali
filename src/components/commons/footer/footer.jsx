@@ -3,7 +3,7 @@ import './footer.css'
 
 const Footer = () => {
     const handleDownloadCVClick = () => {
-        window.location.href = 'https://drive.google.com/uc?export=download&id=1vZCL22ZPMTJRDwkjVpOJytpPMpATX3Te';
+        window.location.href = 'https://drive.google.com/uc?export=download&id=1PNgm8ZS6DNh8tV79IIfhfSTg3X8wWW3S';
     };
 
     const handleLinkedInClick = () => {
