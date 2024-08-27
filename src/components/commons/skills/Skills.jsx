@@ -77,7 +77,7 @@ const Skills = () => {
                         </div>
                         <div className='curriculum-text'>
                             <h2>You can find more information in my </h2>
-                            <a href='https://drive.google.com/uc?export=view&id=1URSXA1rwHUBrXanpeGGJK85fDJ8jBJJL'>Curriculum</a>
+                            <a href='https://drive.google.com/uc?export=download&id=1PNgm8ZS6DNh8tV79IIfhfSTg3X8wWW3S'>Curriculum</a>
                         </div>
                     </div>
                 </div>
