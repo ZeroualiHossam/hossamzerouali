@@ -7,11 +7,11 @@ const Footer = () => {
     };
 
     const handleLinkedInClick = () => {
-        window.location.href = 'https://www.linkedin.com/in/hossam-zerouali-385643305/';
+        window.open('https://www.linkedin.com/in/hossam-zerouali-385643305/');
     };
 
     const handleGithubClick = () => {
-        window.location.href = 'https://github.com/ZeroualiHossam';
+        window.open('https://github.com/ZeroualiHossam');
     };
     return (
         <div className="footer-container">
