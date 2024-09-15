@@ -5,67 +5,45 @@ body, html {
   overflow-x: hidden;
 }
 
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(111, 184, 159) transparent;
+}
 .scrollToTopBtn {
   position: fixed;
   bottom: 20px;
-  right: 30px;
-  z-index: 100;
-  cursor: pointer;
-  width: 45px;
-  height: 45px;
+  right: 20px;
   background-color: rgb(111, 184, 159);
   border: none;
   border-radius: 50%;
-  cursor: pointer;
-  justify-content: center;
-  transition: background-color 0.3s ease;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+  z-index: 1000;
 }
 
 .scrollToTopBtn:hover {
   background-color: rgb(28, 59, 48);
 }
 
-.scrollToTopBtn img {
-  margin-right: 2px;
-  width: 25px;
-  transform: translateY(0);
+.scrollToTopBtn .icon {
+  width: 24px;
+  height: 24px;
 }
 
-* {
-  scrollbar-width: thin;
-  scrollbar-color: rgb(111, 184, 159) transparent;
-}
-
-@media screen and (max-width:1150px) {
-
+@media screen and (max-width: 750px) {
   .scrollToTopBtn {
-      padding: 14px;
-      width: 50px;
-      height: 50px;
+      width: 40px;
+      height: 40px;
   }
   
-  .scrollToTopBtn img {
-      width: 25px;
-      margin-right: 1px;
-  }
-
-}
-
-
-@media screen and (max-width: 650px) {
-
-  .scrollToTopBtn {
-      padding: 12px;
-      width: 30px;
-      height: 30px;
-  }
-  
-  .scrollToTopBtn img {
-      width: 14px;
-      margin-right: 1px;
+  .scrollToTopBtn .icon {
+      width: 20px;
+      height: 20px;
   }
   
 }
