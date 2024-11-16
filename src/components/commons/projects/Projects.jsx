@@ -4,7 +4,6 @@ import f1Image from '../../../assets/f1_mock.png';
 import kbinImage from '../../../assets/kbin_mock.png';
 import portfolioImage from '../../../assets/portfolio_mock.png';
 import keyboardImage from '../../../assets/teclado_mock.png';
-import denstanaImage from '../../../assets/dentsana_mock.png';
 import './Projects.css';
 
 const Projects = () => {
@@ -40,10 +39,6 @@ const Projects = () => {
     const handleViewProjectClickPortfolio = () => {
         window.open('https://github.com/ZeroualiHossam/hossamzerouali', '_blank');
     };
-    
-    const handleViewProjectClickDentsana = () => {
-        window.open('https://www.dentsanamartorell.es/', '_blank');
-    };
 
     return (
         <div className="projects-container">
@@ -52,22 +47,6 @@ const Projects = () => {
                 <div className='line'></div>
             </div>
             <div className='projects'>
-            <div className='project'>
-                    <img className='project-image h' src={denstanaImage} alt='project' />
-                    <div className='content-project'>
-                        <div className='coming'>
-                            <h1>Clínica Dental Dentsana</h1>
-                        </div>
-                        <p>A website developed with React, designed to offer an informative experience for current and prospective patients. Featuring an intuitive and modern design, the site provides comprehensive details about the clinic’s services, including in-depth descriptions of various treatments. Patients can easily find essential information such as the clinic’s location through integrated maps, learn about the professional staff, and read patient reviews. Additionally, the website offers insights into the clinic’s history, ensuring a well-rounded view. With its focus on user-friendly navigation and accessibility, the site enhances patient engagement and simplifies their journey.</p>
-                        <div className='project-dev'>
-                            <h2 className='devwith'>Built with</h2>
-                            <img className='img-dev' src="https://api.iconify.design/vscode-icons:file-type-reactjs.svg" alt="" />
-                        </div>
-                        <div className='project-links'>
-                            <button className='project-button' onClick={handleViewProjectClickDentsana}>Visit Project</button>
-                        </div>
-                    </div>
-                </div>
                 <div className='project'>
                     <img className='project-image' src={culturappImage} alt='project' />
                     <div className='content-project'>
