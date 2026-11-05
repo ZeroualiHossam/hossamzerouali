@@ -7,13 +7,14 @@ body, html {
 
 * {
   scrollbar-width: thin;
-  scrollbar-color: rgb(111, 184, 159) transparent;
+  scrollbar-color: var(--primary, rgb(111, 184, 159)) transparent;
 }
+
 .scrollToTopBtn {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: rgb(111, 184, 159);
+  background-color: var(--primary, rgb(111, 184, 159));
   border: none;
   border-radius: 50%;
   padding: 10px;
@@ -24,10 +25,11 @@ body, html {
   justify-content: center;
   cursor: pointer;
   z-index: 1000;
+  transition: background-color 0.4s ease;
 }
 
 .scrollToTopBtn:hover {
-  background-color: rgb(28, 59, 48);
+  background-color: var(--primary-dark, rgb(28, 59, 48));
 }
 
 .scrollToTopBtn .icon {
@@ -37,13 +39,12 @@ body, html {
 
 @media screen and (max-width: 750px) {
   .scrollToTopBtn {
-      width: 40px;
-      height: 40px;
+    width: 40px;
+    height: 40px;
   }
-  
+
   .scrollToTopBtn .icon {
-      width: 20px;
-      height: 20px;
+    width: 20px;
+    height: 20px;
   }
-  
 }

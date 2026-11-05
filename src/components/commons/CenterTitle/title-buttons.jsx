@@ -1,32 +1,22 @@
-import React from 'react';
 import ReactGA from 'react-ga';
+import { useTheme } from '../../../context/ThemeContext';
 import './title-buttons.css';
 
 const TitleButtons = () => {
+    const { config } = useTheme();
+
     const handleDownloadCVClick = () => {
-        ReactGA.event({
-            category: 'CV',
-            action: 'download',
-            label: 'Download CV'
-        });
+        ReactGA.event({ category: 'CV', action: 'download', label: 'Download CV' });
         window.location.href = 'https://drive.google.com/uc?export=download&id=1ERKbQhNHp7zjdOCSR62ko5fpXzOdzcF4';
     };
-    
+
     const handleLinkedInClick = () => {
-        ReactGA.event({
-            category: 'Profile',
-            action: 'navigate',
-            label: 'LinkedIn Profile'
-        });
+        ReactGA.event({ category: 'Profile', action: 'navigate', label: 'LinkedIn Profile' });
         window.open('https://www.linkedin.com/in/hossam-zerouali-385643305/');
     };
-    
+
     const handleGithubClick = () => {
-        ReactGA.event({
-            category: 'Profile',
-            action: 'navigate',
-            label: 'GitHub Profile'
-        });
+        ReactGA.event({ category: 'Profile', action: 'navigate', label: 'GitHub Profile' });
         window.open('https://github.com/ZeroualiHossam');
     };
 
@@ -41,12 +31,10 @@ const TitleButtons = () => {
         <div className="container">
             <div className='title-desc'>
                 <h1 className='presentation'>
-                    Full Stack Developer & Designer
+                    {config.title}
                 </h1>
                 <p className='descripcion'>
-                    I am a Software Engineering student with experience in
-                    web and mobile development and design. I am always looking for new challenges
-                    and opportunities to improve my skills.
+                    {config.description}
                 </p>
             </div>
             <div className="buttons-container">
@@ -61,7 +49,7 @@ const TitleButtons = () => {
                 </button>
             </div>
             <div className="arrow-container" onClick={() => scrollToSection('description')}>
-                <img src="https://api.iconify.design/ep:bottom.svg?color=rgb(111, 184, 159)" className="down-arrow" alt="Scroll Down" />
+                <img src="https://api.iconify.design/ep:bottom.svg?color=white" className="down-arrow" alt="Scroll Down" />
             </div>
         </div>
     );
