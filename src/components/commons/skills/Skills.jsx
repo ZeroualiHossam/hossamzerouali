@@ -8,7 +8,7 @@ const Skills = () => {
                 <div className='desc-soft'>
                     <div className='title-skill'>
                         <div className='tit'>
-                            <img src="https://api.iconify.design/pajamas:monitor-o.svg" alt="" />
+                            <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/display.svg" alt="Software Engineer" />
                             <h1>Software Engineer</h1>
                         </div>
                         <p className='descrip-soft'>I like to code things from scratch and watching my ideas come to life in the browser. The process of transforming abstract concepts into interactive and functional applications is incredibly rewarding. I thrive on the challenge of solving complex problems and continuously learning new technologies.</p>
@@ -17,27 +17,27 @@ const Skills = () => {
                         <h2>Tooling</h2>
                         <div className="tools">
                             <div className="tool">
-                                <img src="https://api.iconify.design/logos:javascript.svg" alt="JavaScript" />
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
                                 <p>JavaScript</p>
                             </div>
                             <div className="tool">
-                                <img src="https://api.iconify.design/logos:react.svg" alt="React" />
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
                                 <p>React</p>
                             </div>
                             <div className="tool">
-                                <img src="https://api.iconify.design/logos:flutter.svg" alt="React" />
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" />
                                 <p>Flutter</p>
                             </div>
                             <div className="tool">
-                                <img src="https://api.iconify.design/devicon:cplusplus.svg" alt="React" />
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" />
                                 <p>C++</p>
                             </div>
                             <div className="tool">
-                                <img src="https://api.iconify.design/logos:python.svg" alt="React" />
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
                                 <p>Python</p>
                             </div>
                             <div className="tool">
-                                <img src="https://api.iconify.design/devicon:firebase.svg" alt="React" />
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase" />
                                 <p>Firebase</p>
                             </div>
                         </div>
@@ -49,7 +49,7 @@ const Skills = () => {
             <div className='desc-soft'>
             <div className='title-skill'>
                         <div className='tit'>
-                            <img src="https://api.iconify.design/icon-park-outline:edit.svg" alt="" />
+                            <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/pencil-square.svg" alt="Designer" />
                             <h1>Designer</h1>
                         </div>
                         <p className='descrip-soft'>I believe that the essence of great design lies in its ability to communicate
@@ -62,15 +62,15 @@ const Skills = () => {
                             <h2>Tooling</h2>
                             <div className="tools">
                             <div className="tool">
-                                <img src="https://api.iconify.design/devicon:figma.svg" alt="Figma" />
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" />
                                 <p>Figma</p>
                             </div>
                             <div className="tool">
-                                <img src="https://api.iconify.design/devicon:photoshop.svg" alt="Photoshop" />
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" alt="Photoshop" />
                                 <p>Photoshop</p>
                             </div>
                             <div className="tool">
-                                <img src="https://api.iconify.design/wpf:create-new.svg" alt="Paper" />
+                                <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/file-earmark-plus.svg" alt="Paper" />
                                 <p>Paper</p>
                             </div>
                             </div>

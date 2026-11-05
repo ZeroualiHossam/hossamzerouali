@@ -41,6 +41,7 @@
     margin-right: 0;
     width: 25px;
     transform: translateY(0);
+    filter: brightness(0) invert(1);
 }
 
 .images-footer{

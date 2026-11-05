@@ -31,7 +31,7 @@ function App() {
       <div id="contact"><Contact /></div>
       <Footer />
       <button onClick={scrollToTop} className="scrollToTopBtn">
-        <img className='icon' src="https://api.iconify.design/ep:top.svg?color=white" alt='top'/>
+        <img className='icon' src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/chevron-up.svg" alt='top'/>
       </button>
     </div>
   );

@@ -28,7 +28,7 @@ const Header = () => {
                     <a className="option" href="#contact" onClick={(e) => { e.preventDefault(); scrollToSection('contact'); }}>Contact</a>
                 </div>
                 <div className="menu-icon" onClick={toggleMenu}>
-                    <img src="https://api.iconify.design/heroicons-solid:menu.svg?color=rgb(111, 184, 159)" alt="Menu Icon" />
+                    <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/list.svg" alt="Menu Icon" />
                 </div>
             </div>
             {showMenu && <DropdownMenu onOptionClick={toggleMenu} />}

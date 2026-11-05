@@ -58,6 +58,7 @@
 .menu-icon img {
     margin-top: 5px;
     height: 30px;
+    filter: invert(57%) sepia(14%) saturate(608%) hue-rotate(102deg) brightness(90%) contrast(86%);
 }
 
 .dropdown-menu a {

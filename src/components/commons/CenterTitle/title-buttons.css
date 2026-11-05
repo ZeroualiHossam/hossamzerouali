@@ -58,6 +58,7 @@
     margin-right: 10px;
     width: 30px;
     transform: translateY(4px);
+    filter: brightness(0) invert(1);
 }
 
 .btn:hover {

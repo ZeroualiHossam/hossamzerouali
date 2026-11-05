@@ -51,17 +51,17 @@ const TitleButtons = () => {
             </div>
             <div className="buttons-container">
                 <button className="btn" onClick={handleDownloadCVClick}>
-                    <img className='icon' src="https://api.iconify.design/simple-line-icons:cloud-download.svg?color=white" alt="CV Icon" /> Download CV
+                    <img className='icon' src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/cloud-download.svg" alt="CV Icon" /> Download CV
                 </button>
                 <button className="btn" onClick={handleLinkedInClick}>
-                    <img className='icon' src="https://api.iconify.design/simple-line-icons:social-linkedin.svg?color=white" alt="LinkedIn Icon" /> LinkedIn
+                    <img className='icon' src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/linkedin.svg" alt="LinkedIn Icon" /> LinkedIn
                 </button>
                 <button className="btn" onClick={handleGithubClick}>
-                    <img className='icon' src="https://api.iconify.design/simple-line-icons:social-github.svg?color=white" alt="Github Icon" /> Github
+                    <img className='icon' src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/github.svg" alt="Github Icon" /> Github
                 </button>
             </div>
             <div className="arrow-container" onClick={() => scrollToSection('description')}>
-                <img src="https://api.iconify.design/ep:bottom.svg?color=rgb(111, 184, 159)" className="down-arrow" alt="Scroll Down" />
+                <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/chevron-down.svg" className="down-arrow" alt="Scroll Down" />
             </div>
         </div>
     );

@@ -18,18 +18,18 @@ const Footer = () => {
             <div className='line-footer'></div>
             <div className='images-footer'>
             <button className="btn-footer" onClick={handleGithubClick}>
-                    <img className='icon' src="https://api.iconify.design/simple-line-icons:social-github.svg?color=white" alt="Github Icon" />
+                    <img className='icon' src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/github.svg" alt="Github Icon" />
                 </button>
                 <button className="btn-footer" onClick={handleLinkedInClick}>
-                    <img className='icon' src="https://api.iconify.design/simple-line-icons:social-linkedin.svg?color=white"  alt="LinkedIn Icon" />
+                    <img className='icon' src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/linkedin.svg"  alt="LinkedIn Icon" />
                 </button>
                 <button className="btn-footer" onClick={handleDownloadCVClick}>
-                    <img className='icon' src="https://api.iconify.design/simple-line-icons:cloud-download.svg?color=white" alt="CV Icon" />
+                    <img className='icon' src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/cloud-download.svg" alt="CV Icon" />
                 </button>
             </div>
             <div className='footer-end-text'>
                 <h2 className='footer-text'>Made with </h2>
-                <img src="https://api.iconify.design/logos:react.svg" alt="" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
                 <h2 className='footer-text'>by Hossam Zerouali</h2>
             </div>
         </div>

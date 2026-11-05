@@ -61,7 +61,7 @@ const Projects = () => {
                         <p>A website developed with React, designed to offer an informative experience for current and prospective patients. Featuring an intuitive and modern design, the site provides comprehensive details about the clinic’s services, including in-depth descriptions of various treatments. Patients can easily find essential information such as the clinic’s location through integrated maps, learn about the professional staff, and read patient reviews. Additionally, the website offers insights into the clinic’s history, ensuring a well-rounded view. With its focus on user-friendly navigation and accessibility, the site enhances patient engagement and simplifies their journey.</p>
                         <div className='project-dev'>
                             <h2 className='devwith'>Built with</h2>
-                            <img className='img-dev' src="https://api.iconify.design/vscode-icons:file-type-reactjs.svg" alt="" />
+                            <img className='img-dev' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="" />
                         </div>
                         <div className='project-links'>
                             <button className='project-button' onClick={handleViewProjectClickDentsana}>Visit Project</button>
@@ -75,11 +75,11 @@ const Projects = () => {
                         <p>CulturApp is an Android application designed to make researching cultural events in Catalonia effortless. It not only simplifies the process of finding events but also provides incentives for participation. Additionally, it offers an interactive and secure communication space, ensuring users can engage with the cultural community safely and enjoyably. Whether you're a local or a visitor, CulturApp is your gateway to discovering and experiencing the rich cultural tapestry of Catalonia.</p>
                         <div className='project-dev'>
                             <h2 className='devwith'>Built with</h2>
-                            <img className='img-dev' src="https://api.iconify.design/vscode-icons:file-type-flutter.svg" alt="" />
-                            <img className='img-dev' src="https://api.iconify.design/vscode-icons:file-type-js-official.svg" alt="" />
-                            <img className='img-dev' src="https://api.iconify.design/vscode-icons:file-type-node.svg" alt="" />
-                            <img className='img-dev' src="https://api.iconify.design/vscode-icons:file-type-firebase.svg" alt="" />
-                            <img className='img-dev' src="https://api.iconify.design/vscode-icons:file-type-gcloud.svg" alt="" />
+                            <img className='img-dev' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="" />
+                            <img className='img-dev' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="" />
+                            <img className='img-dev' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="" />
+                            <img className='img-dev' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="" />
+                            <img className='img-dev' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" alt="" />
                         </div>
                         <div className='project-links'>
                             <button className='project-button' onClick={handleViewProjectClickCulturApp}>View Project</button>
@@ -97,11 +97,11 @@ const Projects = () => {
                         <p>This project involved replicating the main functionalities of kbin.social over three sprints. In the first phase, the platform was cloned using Django (MVC server-side framework) and PostgreSQL (separate database architecture) to create a classic web app. In the second phase, a Level 2 REST API was designed and implemented in Python, complete with Swagger documentation. The final phase involved developing a responsive client web application using the React.js framework.</p>
                         <div className='project-dev'>
                             <h2 className='devwith'>Built with</h2>
-                            <img className='img-dev' src="https://api.iconify.design/vscode-icons:file-type-python.svg" alt="" />
-                            <img className='img-dev' src="https://api.iconify.design/vscode-icons:file-type-django.svg" alt="" />
-                            <img className='img-dev' src="https://api.iconify.design/vscode-icons:file-type-pgsql.svg" alt="" />
-                            <img className='img-dev' src="https://api.iconify.design/vscode-icons:file-type-swagger.svg" alt="" />
-                            <img className='img-dev' src="https://api.iconify.design/vscode-icons:file-type-reactjs.svg" alt="" />
+                            <img className='img-dev' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="" />
+                            <img className='img-dev' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="" />
+                            <img className='img-dev' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="" />
+                            <img className='img-dev' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swagger/swagger-original.svg" alt="" />
+                            <img className='img-dev' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="" />
                         </div>
                         <div className='project-links'>
                             <button className='project-button' onClick={handleViewProjectClickKbinSocial}>View Project</button>
@@ -119,10 +119,10 @@ const Projects = () => {
                         <p>An informational website for F1 fans, built using Angular with Firebase as the backend database and data fetched through a Node.js API powered by Express. This platform is designed to deliver comprehensive and up-to-date information on Formula 1, including detailed profiles of drivers and teams, the latest news, race results, and schedules. The platform aims to introduce exciting new features such as fan forums and live race chats, enhancing the experience to make it even more engaging and immersive for F1 enthusiasts.</p>
                         <div className='project-dev'>
                             <h2 className='devwith'>Built with</h2>
-                            <img className='img-dev' src="https://api.iconify.design/vscode-icons:file-type-angular.svg" alt="" />
-                            <img className='img-dev' src="https://api.iconify.design/vscode-icons:file-type-js-official.svg" alt="" />
-                            <img className='img-dev' src="https://api.iconify.design/vscode-icons:file-type-node.svg" alt="" />
-                            <img className='img-dev' src="https://api.iconify.design/vscode-icons:file-type-firebase.svg" alt="" />
+                            <img className='img-dev' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" alt="" />
+                            <img className='img-dev' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="" />
+                            <img className='img-dev' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="" />
+                            <img className='img-dev' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="" />
                         </div>
                         <div className='project-links'>
                             <button className='project-button' onClick={handleViewProjectClickF1Web}>View Project</button>
@@ -137,7 +137,7 @@ const Projects = () => {
                         
                         <div className='project-dev'>
                             <h2 className='devwith'>Built with</h2>
-                            <img className='img-dev' src="https://api.iconify.design/vscode-icons:file-type-class.svg" alt="" />
+                            <img className='img-dev' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="" />
                         </div>
                         <div className='project-links'>
                             <button className='project-button' onClick={handleViewProjectClickKeyboard}>View Project</button>
@@ -152,7 +152,7 @@ const Projects = () => {
                         <p> I have developed my personal web portfolio using React, aiming for an attractive and pleasant design. My goal was to create a visually appealing and graphical interface that makes my projects easily visible and understandable. Additionally, I focused on facilitating contact and access to me for potential clients and collaborators.</p>
                         <div className='project-dev'>
                             <h2 className='devwith'>Built with</h2>
-                            <img className='img-dev' src="https://api.iconify.design/vscode-icons:file-type-reactjs.svg" alt="" />
+                            <img className='img-dev' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="" />
                         </div>
                         <div className='project-links'>
                             <button className='project-button' onClick={handleViewProjectClickPortfolio}>View Project</button>
